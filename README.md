@@ -1,12 +1,51 @@
-# React + Vite
+![alt text](image.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌐 VirtualR  
 
-Currently, two official plugins are available:
+Landing page moderna e totalmente responsiva, desenvolvida em **React** com **Tailwind CSS**.  
+O projeto foi criado pensando em organização, performance e escalabilidade, com uma estrutura baseada em **componentes reutilizáveis** e conteúdos dinâmicos.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React + Tailwind CSS** → Layout moderno, responsivo e com design limpo.  
+- 📱 **Mobile Menu** → Navegação interativa e controlada por *states* do React.  
+- 🧩 **Componentização** → Estrutura dividida em *sections* independentes e fáceis de manter.  
+- 📂 **Arquivo de Constantes** → Todo conteúdo centralizado em um arquivo separado, renderizado dinamicamente com `map()`.  
+- 💡 **100% Responsiva** → Se adapta a qualquer dispositivo, do celular ao desktop.  
+
+---
+
+## 📂 Estrutura do Projeto  
+
+src/
+├── components/ # Componentes reutilizáveis
+├── data/ # Arquivo de constantes para os conteúdos das sections
+├── sections/ # Cada parte da landing page organizada por section
+├── App.jsx # Estrutura principal
+└── index.jsx # Ponto de entrada do React
+
+
+---
+
+## 🚀 Como rodar o projeto  
+
+1. Clone o repositório:  
+```bash
+git clone https://github.com/seu-usuario/virtualR.git
+cd virtualR
+npm install
+# ou
+pnpm install
+# ou
+yarn install
+npm run dev
+
+
+ 🛠️ Tecnologias utilizadas
+- React.js
+- Tailwind 
+- JavaScript (ES6+)
+
+---
